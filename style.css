@@ -1,0 +1,162 @@
+body {
+    background-color: #EEEDED;
+}
+.contain{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.li {
+    list-style: none;
+    display:flex;
+    float:right;
+}
+.li a {
+    margin: 10px;
+    padding:10px;
+    text-decoration: none;
+    color:#053B50;
+}
+.sec1{
+    margin: 50px;
+    padding-top: 80px;
+    height:100px;
+    width:fit-content;
+}
+.sec1 p {
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.sec2{
+    margin: 50px;
+    position:relative;
+    top: 120px;
+    height:100px;
+    width:fit-content;
+}
+.img1 {
+    border-radius: 50%;
+    border: 2px solid #19A7CE;
+    background-color: #19A7CE;
+    justify-content: center;
+    display:flex;
+    width:20%;
+    position: absolute;
+    top:120px;
+    left:700px;
+}
+.fa {
+    position:relative;
+    right:200px;
+    font-family: "precious";
+    font-size: 20px;
+}
+.img2{
+    width:120px;
+    height: 80px;
+    padding:10px;
+    position:relative;
+    left: 30px;
+    
+
+}
+.sec3{
+    margin: 50px;
+    padding-top: 10px;
+    height:100px;
+    width:fit-content;
+    position: relative;
+    top:350px;
+ 
+}
+.img3 {
+    width:900px;
+    height: 600px;
+    padding:10px;
+    position: relative;
+    left: 100px;
+}
+.img4 {
+    width:600px;
+    height:800px;
+    padding:10px;
+    position: relative;
+    left: 210px;
+}
+.sec4{
+    margin: 50px;
+    padding-top: 80px;
+    height:100px;
+    width:fit-content;
+    position: relative;
+    top:4950px;
+}
+.click{
+    border: #ccc;
+    width:700px;
+    height:200px;
+    box-shadow: 10px 10px 5px #ccc;
+    margin: 10px;
+}
+.sec5{
+    margin: 50px;
+    padding-top: 20px;
+    height:100px;
+    width:fit-content;
+    position: relative;
+    top:5100px;
+}
+.clicky{
+    width:500px;
+    height:200px;
+    padding:5px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.sec6{
+    margin: 50px;
+    padding-top: 80px;
+    height:100px;
+    width:fit-content;
+    position: relative;
+    top:5400px;
+}
+.resume{
+    text-decoration: none;
+    color: #F6F1F1;
+    border:2px solid #19A7CE;
+    background-color: #19A7CE;
+    padding:10px;
+    position:relative;
+    top:20px; 
+}
+.sec7{
+    margin: 50px;
+    padding-top: 10px;
+    height:100px;
+    width:fit-content;
+    position: relative;
+    top:5400px;
+}
+
+.img5{
+    width:50px; 
+    height:50px;
+    padding: 10px;
+}
+.foot{
+    position:relative;
+    top:5450px;
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    left:70px;
+    color: #053B50;
+}
+h2{
+    color:#176B87;
+}
+p{
+    color:#053B50;
+}
