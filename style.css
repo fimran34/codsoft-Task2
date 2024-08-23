@@ -1,162 +1,114 @@
 body {
     background-color: #EEEDED;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
-.contain{
-    max-width: 80vw;
-    font-family: 'Ubuntu', sans-serif
+.resume{
+    text-decoration: none;
+    color: #19A7CE;
+
+}
+
+.resume1{
+    color: white;
+    background-color: grey;
+}
+
+.contain {
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .li {
     list-style: none;
-    display:flex;
-    float:right;
-}
-.li a {
-    margin: 10px;
-    padding:10px;
-    text-decoration: none;
-    color:#053B50;
-}
-.sec1{
-    margin: 50px;
-    padding-top: 80px;
-    height:100px;
-    width:fit-content;
-}
-.sec1 p {
-    margin:0;
-    padding:0;
-    display:flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
 }
 
-.sec2{
-    margin: 50px;
-    position:relative;
-    top: 120px;
-    height:100px;
-    width:fit-content;
+.li a {
+    text-decoration: none;
+    color: #053B50;
+    padding: 10px;
 }
+.fa{
+    font-family: 'Precious', sans-serif;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .li {
+        width: 100%;
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
+    .li a {
+        margin: 5px;
+        flex: 1; /* Take up full width on smaller screens */
+    }
+}
+
+
+
+/* Responsive typography */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Section styles */
+.sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
+    margin: 20px 0;
+}
+
+/* Image styles */
 .img1 {
     border-radius: 50%;
     border: 2px solid #19A7CE;
     background-color: #19A7CE;
     justify-content: center;
-    display:flex;
-    width:20%;
-    position: absolute;
-    top:120px;
-    left:700px;
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
 }
-.fa {
-    position:relative;
-    right:200px;
-    font-family: "precious";
-    font-size: 20px;
-}
-.img2{
-    width:120px;
+
+.img2 {
+    width: 100px;
     height: 80px;
-    padding:10px;
-    position:relative;
-    left: 30px;
-    
-
-}
-.sec3{
-    margin: 50px;
-    padding-top: 10px;
-    height:100px;
-    width:fit-content;
-    position: relative;
-    top:350px;
- 
-}
-.img3 {
-    width:900px;
-    height: 600px;
-    padding:10px;
-    position: relative;
-    left: 100px;
-}
-.img4 {
-    width:600px;
-    height:800px;
-    padding:10px;
-    position: relative;
-    left: 210px;
-}
-.sec4{
-    margin: 50px;
-    padding-top: 80px;
-    height:100px;
-    width:fit-content;
-    position: relative;
-    top:4950px;
-}
-.click{
-    border: #ccc;
-    width:700px;
-    height:200px;
-    box-shadow: 10px 10px 5px #ccc;
-    margin: 10px;
-}
-.sec5{
-    margin: 50px;
-    padding-top: 20px;
-    height:100px;
-    width:fit-content;
-    position: relative;
-    top:5100px;
-}
-.clicky{
-    width:500px;
-    height:200px;
-    padding:5px;
-    box-shadow: 10px 10px 5px #ccc;
-}
-.sec6{
-    margin: 50px;
-    padding-top: 80px;
-    height:100px;
-    width:fit-content;
-    position: relative;
-    top:5400px;
-}
-.resume{
-    text-decoration: none;
-    color: #F6F1F1;
-    border:2px solid #19A7CE;
-    background-color: #19A7CE;
-    padding:10px;
-    position:relative;
-    top:20px; 
-}
-.sec7{
-    margin: 50px;
-    padding-top: 10px;
-    height:100px;
-    width:fit-content;
-    position: relative;
-    top:5400px;
-}
-
-.img5{
-    width:50px; 
-    height:50px;
     padding: 10px;
 }
-.foot{
-    position:relative;
-    top:5450px;
-    margin:20px;
-    padding:10px;
+
+.img3, .img4 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.img5 {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+/* Clickable element styles */
+.click, .clicky {
+    border: 2px solid #ccc;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 5px #ccc;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+.foot {
+    margin: 20px 0;
+    padding: 10px;
     text-align: center;
-    left:70px;
     color: #053B50;
-}
-h2{
-    color:#176B87;
-}
-p{
-    color:#053B50;
 }
